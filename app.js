@@ -1,7 +1,7 @@
 'use strict';
 
 require('./globals');
-require('./setup-qcloud-sdk');
+// require('./setup-qcloud-sdk');
 
 const http = require('http');
 const express = require('express');
