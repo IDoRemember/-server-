@@ -15,5 +15,6 @@ connection.query('select * from uname',function(error,results,fields){
     console.log('12332haha222h',error,results)
 });
 module.exports = (req, res) => {
-    LoginService.create(req, res).login();
+    // LoginService.create(req, res).login();
+    res.send('hahhah')
 };
